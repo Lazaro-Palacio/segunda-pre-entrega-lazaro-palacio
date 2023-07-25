@@ -21,6 +21,9 @@ h1 {
   main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    @media (min-width: 768px) {
+        max-width: 1600px;
+    }
   }
   
   p {
